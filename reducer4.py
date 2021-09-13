@@ -34,7 +34,7 @@ for line in sys.stdin:
         bb=0
         if current_key:
             # write result to STDOUT
-            #print('{}\t{}'.format(current_key,sums))
+            print('{}\t{}'.format(current_key,sums))
             tow.append('{}\t{}'.format(current_key,sums))
             tow2[key]=sums
         current_key = key
@@ -43,7 +43,7 @@ for line in sys.stdin:
 #Last key
 if current_key == key:
     tow2[key]=sums
-    #print('{}\t{}'.format(current_key,sums))
+    print('{}\t{}'.format(current_key,sums))
     tow.append('{}\t{}'.format(current_key,sums))
 #f.close()
 
@@ -56,6 +56,7 @@ tow2=dict(sorted(tow2.items(), key=lambda item: item[1]))
 for hh in tow2:
     if c<3:
         var.write('{}\t{}'.format(hh,tow2[hh]))
+        print('{}\t{}'.format(hh,tow2[hh]))
         var.write('\n')
     c=c+1
 
