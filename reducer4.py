@@ -34,8 +34,8 @@ for line in sys.stdin:
         bb=0
         if current_key:
             # write result to STDOUT
-            print('{}\t{}'.format(current_key,sums))
-            tow.append('{}\t{}'.format(current_key,sums))
+            #print('{}\t{}'.format(current_key,sums))
+            
             tow2[key]=sums
         current_key = key
         sums = value
@@ -43,8 +43,8 @@ for line in sys.stdin:
 #Last key
 if current_key == key:
     tow2[key]=sums
-    print('{}\t{}'.format(current_key,sums))
-    tow.append('{}\t{}'.format(current_key,sums))
+    #print('{}\t{}'.format(current_key,sums))
+    
 #f.close()
 
 
