@@ -28,7 +28,7 @@ for line in sys.stdin:
 
     
     try:
-        #print('{}\t{}'.format(name1, int(duration_m)))
+        print('{}\t{}'.format(name1, int(duration_m)))
         var.write('{}\t{}'.format(name1, int(duration_m)))
         var.write('\n')
         vv=0 
