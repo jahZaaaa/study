@@ -56,7 +56,7 @@ tow2=dict(sorted(tow2.items(), key=lambda item: item[1]))
 for hh in tow2:
     if c<5:
         var.write('{}\t{}'.format(hh,tow2[hh]))
-        print('{}\t{}'.format(hh,tow2[hh]))
+        #print('{}\t{}'.format(hh,tow2[hh]))
         var.write('\n')
     c=c+1
 
