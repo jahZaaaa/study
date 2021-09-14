@@ -37,7 +37,7 @@ for line in sys.stdin:
 if current_key == key:
     tow2[key]=sums    
     
-f.close()
+
 
 
 
