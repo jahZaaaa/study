@@ -46,6 +46,9 @@ for line in sys.stdin:
             elif tow2[key] > max_sum3 :
                 max_sum3=tow2[key]
                 max_key3=key
+            var.write('{}\t{}'.format(max_key,tow2[max_key])
+            var.write('{}\t{}'.format(max_key2,tow2[max_key2])
+            var.write('{}\t{}'.format(max_key3,tow2[max_key3])
                 
             
                 
@@ -68,6 +71,9 @@ for line in sys.stdin:
             elif tow2[key] > max_sum3 :
                 max_sum3=tow2[key]
                 max_key3=key
+            var.write('{}\t{}'.format(max_key,tow2[max_key])
+            var.write('{}\t{}'.format(max_key2,tow2[max_key2])
+            var.write('{}\t{}'.format(max_key3,tow2[max_key3])
                 
                     
     except ValueError:
@@ -79,9 +85,7 @@ for line in sys.stdin:
 
 
 
-var.write('{}\t{}'.format(max_key,tow2[max_key])
-var.write('{}\t{}'.format(max_key2,tow2[max_key2])
-var.write('{}\t{}'.format(max_key3,tow2[max_key3])
+
 
                 
     
