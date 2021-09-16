@@ -27,7 +27,14 @@ for line in sys.stdin:
     try:
         
         value = int(value)
-        if key in tow2:
+        
+                
+                    
+    except ValueError:
+        vv=0
+        continue
+
+    if key in tow2:
             
             tow2[key]=tow2[key]+value
             
@@ -87,11 +94,6 @@ for line in sys.stdin:
                 var.write('{}\t{}'.format(max_key,tow2[max_key])
                 var.write('{}\t{}'.format(max_key2,tow2[max_key2])
                 var.write('{}\t{}'.format(max_key3,tow2[max_key3])
-                
-                    
-    except ValueError:
-        vv=0
-        continue
 
 	
 
