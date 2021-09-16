@@ -36,19 +36,26 @@ for line in sys.stdin:
                 max_key2=max_key
                 max_sum=tow2[key]
                 max_key=key
+                var.write('{}\t{}'.format(max_key,tow2[max_key])
+                var.write('{}\t{}'.format(max_key2,tow2[max_key2])
+                var.write('{}\t{}'.format(max_key3,tow2[max_key3])
                 
             elif tow2[key] > max_sum2 :                
                 max_sum3=max_sum2
                 max_key3=max_key2
                 max_sum2=tow2[key]
                 max_key2=key
+                var.write('{}\t{}'.format(max_key,tow2[max_key])
+                var.write('{}\t{}'.format(max_key2,tow2[max_key2])
+                var.write('{}\t{}'.format(max_key3,tow2[max_key3])
                 
             elif tow2[key] > max_sum3 :
                 max_sum3=tow2[key]
                 max_key3=key
-            var.write('{}\t{}'.format(max_key,tow2[max_key])
-            var.write('{}\t{}'.format(max_key2,tow2[max_key2])
-            var.write('{}\t{}'.format(max_key3,tow2[max_key3])
+                var.write('{}\t{}'.format(max_key,tow2[max_key])
+                var.write('{}\t{}'.format(max_key2,tow2[max_key2])
+                var.write('{}\t{}'.format(max_key3,tow2[max_key3])
+            
                 
             
                 
@@ -61,19 +68,25 @@ for line in sys.stdin:
                 max_key2=max_key
                 max_sum=tow2[key]
                 max_key=key
+                var.write('{}\t{}'.format(max_key,tow2[max_key])
+                var.write('{}\t{}'.format(max_key2,tow2[max_key2])
+                var.write('{}\t{}'.format(max_key3,tow2[max_key3])
                 
             elif tow2[key] > max_sum2 :
                 max_sum3=max_sum2
                 max_key3=max_key2
                 max_sum2=tow2[key]
                 max_key2=key
+                var.write('{}\t{}'.format(max_key,tow2[max_key])
+                var.write('{}\t{}'.format(max_key2,tow2[max_key2])
+                var.write('{}\t{}'.format(max_key3,tow2[max_key3])
                 
             elif tow2[key] > max_sum3 :
                 max_sum3=tow2[key]
                 max_key3=key
-            var.write('{}\t{}'.format(max_key,tow2[max_key])
-            var.write('{}\t{}'.format(max_key2,tow2[max_key2])
-            var.write('{}\t{}'.format(max_key3,tow2[max_key3])
+                var.write('{}\t{}'.format(max_key,tow2[max_key])
+                var.write('{}\t{}'.format(max_key2,tow2[max_key2])
+                var.write('{}\t{}'.format(max_key3,tow2[max_key3])
                 
                     
     except ValueError:
