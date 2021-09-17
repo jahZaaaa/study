@@ -51,11 +51,12 @@ if current_key == key:
 
 ######################
 c=0
-tow2=dict(sorted(tow2.items(), key=lambda item: item[1]))
+tow3=dict(sorted(tow2.items(), key=lambda item: item[1]))
+
 #print(tow2)
-for hh in tow2:
-    if c<4:
-        var.write('{}\t{}'.format(hh,tow2[hh]))
+for hh in tow3:
+    if c<3:
+        var.write('{}\t{}'.format(hh,tow3[hh]))
         #print('{}\t{}'.format(hh,tow2[hh]))
         var.write('\n')
     c=c+1
